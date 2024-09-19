@@ -5,11 +5,11 @@ function comparaNumeros() {
     let b = Number(prompt("Introdueix un altre número"));
 
     if (a > b) {
-        alert("a és més gran que b");
+        alert(`${a} es mes gran que ${b}`);
     } else if (a < b) {
-        alert("b és més gran que a");
+        alert(`${b} és més gran que ${a}`);
     } else {
-        alert("a i b són iguals");
+        alert(`${a} i ${b} són iguals`);
     }
 }
 
