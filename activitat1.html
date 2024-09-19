@@ -135,11 +135,15 @@
         .todolist ul li button:hover {
             background-color: #c82333;
         }
+
+        #task{
+            display: inline-block;
+            margin-top: 10px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Escalfament JavaScript: Exercicis</h1>
 
         <button onclick="comparaNumeros()">Exercici 1
             <p>Escriu una funció que rebi dos números com a paràmetres i retorni el número més gran.</p>
@@ -173,8 +177,8 @@
     <!-- To do List -->
     <div class="todolist">
         <h1>To do List</h1>
-        <input type="text" id="input" placeholder="Add a new task">
-        <button onclick="addTask()">Add Task</button>
+        <input type="text" id="input" placeholder="Add a new task" >
+        <button onclick="addTask()" id="task">Add Task</button>
         <ul id="list"></ul>
     </div>
 
