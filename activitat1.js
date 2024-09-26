@@ -118,6 +118,8 @@ function addTask() {
     } else {
         alert("Escriu una tasca abans d'afegir-la"); // si l'input està buit, mostrem un missatge d'error
     }
+
+    
 }
 
 
